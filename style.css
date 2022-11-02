@@ -1,0 +1,147 @@
+@import url('https://fonts.googleapis.com/css2?family=Anton&family=Barlow:ital,wght@0,100;0,400;0,600;1,100;1,400;1,600&family=Lobster&display=swap');
+
+body {
+  background-color: #ECF0F1;
+  font-family: 'Barlow', sans-serif;
+  color: #313131;
+  font-size: 16px;
+  line-height: 20px;
+}
+
+.container {
+  width: 800px;
+  margin: 0 auto;
+}
+
+h1 {
+  font-family: 'Lobster', cursive;
+  margin: 0;
+  font-size: 2em;
+  line-height: 36px;
+  letter-spacing: 1px;
+  color: #FFFFFF;
+}
+
+h2 {
+  font-family: 'Barlow', sans-serif;
+  margin-top: 8px;
+  font-size: 1.4em;
+  line-height: 26px;
+  color: #FFFFFF;
+  opacity: 0.6;
+  font-weight: 100;
+  font-style: italic;
+}
+
+h3 {
+  font-family: 'Anton', sans-serif;
+  margin-top: 0;
+  font-size: 1.6em;
+  line-height: 30px;
+  text-transform: uppercase;
+  color: #34495E;
+}
+
+a {
+  text-decoration: none;
+  color: #34495E;
+  font-weight: 600;
+}
+
+a:hover {
+  text-decoration: none;
+  color: #517395;
+}
+
+.card {
+  background-color: #FFFFFF;
+  padding: 40px 30px;
+  margin-bottom: 20px;
+  border-radius: 5px;
+  box-shadow: 0 10px 30px rgba(0,0,0,.1);
+}
+
+#avatar {
+  width: 140px;
+  display: block;
+  margin: 0 auto;
+  overflow: hidden;
+}
+
+.back-color-blue {
+  background-color: #2C3E50;
+}
+
+.text-center {
+  text-align: center;
+}
+
+.text-justify {
+  text-align: justify;
+}
+
+.img-circle {
+  border-radius: 50%;
+}
+
+.btn-blue {
+  display: block;
+  margin: 0 auto;
+  width: 180px;
+  padding: 12px 0;
+  background-color: #2C3E50;
+  color: #ECF0F1;
+  border-radius: 25px;
+  transition: all 0.3s ease-out;
+  text-transform: uppercase;
+  font-size: 1em;
+  font-weight: 100;
+}
+
+.btn-blue:hover {
+  background-color: #BDC3C7;
+  color: #2C3E50;
+}
+
+.list-inline {
+  padding-left: 0;
+  margin-bottom: 0;
+}
+
+.list-inline li {
+  display: inline-block;
+  margin: 0 auto;
+  padding: 0px 20px;
+  font-size: 3em;
+  color: #BDC3C7;
+}
+
+.list-inline li a {
+  color: #BDC3C7;
+  transition: all 0.3s ease-out;
+}
+
+.list-inline li a:hover {
+  color: #CF0A0A;
+}
+
+@media (max-width: 960px) {
+  /* Pour un écran < 960px, cette classe CSS s'applique */
+  .container {
+    width: 700px;
+  }
+}
+
+@media (max-width: 720px) {
+  /* Pour un écran < 720px, cette classe CSS s'applique */
+  .container {
+    width: 500px;
+  }
+}
+
+@media (max-width: 540px) {
+  /* Pour un écran < 540px, cette classe CSS s'applique */
+  .container {
+    width: 300px;
+  }
+}
